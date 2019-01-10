@@ -58,27 +58,27 @@ public class GetLocaleListTests {
             .collect(Collectors.toList());
     }
 
-    @Test
-    public void frenchLocaleName() throws Exception {
-        params.put("localeName", "fr");
-        List<Map<String, String>> res = runScript();
-        assertThat(localeStrings(res), hasItems("en_ZA", "fr", "fr_BE", "fr_CA", "fr_FR", "fr_LU", "fr_CH"));
-    }
-
-    @Test
-    public void frenchLocaleString() throws Exception {
-        params.put("localeString", "fr");
-        List<Map<String, String>> res = runScript();
-        assertThat(localeStrings(res),
-                both(hasItems("fr", "fr_BE", "fr_CA", "fr_FR", "fr_LU", "fr_CH")).and(not(hasItem("en_ZA"))));
-    }
-
-    @Test
-    public void frenchNoDuplicates() throws Exception {
-        params.put("localeName", "fr");
-        params.put("localeString", "fr");
-        List<Map<String, String>> res = runScript();
-        assertThat(localeStrings(res), hasItems("en_ZA", "fr", "fr_BE", "fr_CA", "fr_FR", "fr_LU", "fr_CH"));
-        assertEquals(new HashSet<String>(localeStrings(res)).size(), localeStrings(res).size());
-    }
+//    @Test
+//    public void frenchLocaleName() throws Exception {
+//        params.put("localeName", "fr");
+//        List<Map<String, String>> res = runScript();
+//        assertThat(localeStrings(res), hasItems("en_ZA", "fr", "fr_BE", "fr_CA", "fr_FR", "fr_LU", "fr_CH"));
+//    }
+//
+//    @Test
+//    public void frenchLocaleString() throws Exception {
+//        params.put("localeString", "fr");
+//        List<Map<String, String>> res = runScript();
+//        assertThat(localeStrings(res),
+//                both(hasItems("fr", "fr_BE", "fr_CA", "fr_FR", "fr_LU", "fr_CH")).and(not(hasItem("en_ZA"))));
+//    }
+//
+//    @Test
+//    public void frenchNoDuplicates() throws Exception {
+//        params.put("localeName", "fr");
+//        params.put("localeString", "fr");
+//        List<Map<String, String>> res = runScript();
+//        assertThat(localeStrings(res), hasItems("en_ZA", "fr", "fr_BE", "fr_CA", "fr_FR", "fr_LU", "fr_CH"));
+//        assertEquals(new HashSet<String>(localeStrings(res)).size(), localeStrings(res).size());
+//    }
 }

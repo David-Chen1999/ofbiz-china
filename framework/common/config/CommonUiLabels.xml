@@ -32,7 +32,7 @@
         <value xml:lang="pt-BR">Contas a pagar</value>
         <value xml:lang="ru">Покупка Товаров</value>
         <value xml:lang="vi">Khoản Chi (AP)</value>
-        <value xml:lang="zh">应付账户</value>
+        <value xml:lang="zh">应付账款</value>
         <value xml:lang="zh-TW">應付帳款</value>
     </property>
     <property key="Accounting - AR">
@@ -49,7 +49,7 @@
         <value xml:lang="pt-BR">Contas a receber</value>
         <value xml:lang="ru">Реализация</value>
         <value xml:lang="vi">Khoản Thu (AR)</value>
-        <value xml:lang="zh">应收账户</value>
+        <value xml:lang="zh">应收账款</value>
         <value xml:lang="zh-TW">應收帳款</value>
     </property>
     <property key="Accounting">
@@ -9619,7 +9619,7 @@
         <value xml:lang="th">ลงทะเบียนผู้ใช้</value>
         <value xml:lang="vi">Người dùng đã đăng ký</value>
         <value xml:lang="zh">已注册用户</value>
-        <value xml:lang="zh-CN">注册用户</value>
+        <value xml:lang="zh-CN">已注册用户</value>
         <value xml:lang="zh-TW">使用者已註冊</value>
     </property>
     <property key="CommonRejected">

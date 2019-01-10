@@ -1124,16 +1124,16 @@ under the License.
     <BudgetReviewResultType description="Accepted" budgetReviewResultTypeId="BGR_ACCEPTED"/>
     <BudgetReviewResultType description="Rejected" budgetReviewResultTypeId="BGR_REJECTED"/>
 
-    <PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_SAGEPAY" hasTable="Y" description="Payment Gateway SagePay"/>
-    <PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_AUTH_NET" hasTable="Y" description="Payment Gateway Authorize Dot Net"/>
-    <PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_CYBERSRC" hasTable="Y" description="Payment Gateway CyberSource"/>
-    <PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_EWAY" hasTable="Y" description="Payment Gateway eWay"/>
-    <PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_PAYFLOWPRO" hasTable="Y" description="Payment Gateway Payflow Pro"/>
-    <PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_PAYPAL" hasTable="Y" description="Payment Gateway PayPal"/>
-    <PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_CLRCOMRC" hasTable="Y" description="Payment Gateway Clear Commerce"/>
-    <PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_WORLDPAY" hasTable="Y" description="Payment Gateway RBS WorldPay"/>
-    <PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_ORBITAL" hasTable="Y" description="Payment Gateway Orbital"/>
-    <PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_SECUREPAY" hasTable="Y" description="Payment Gateway SecurePay"/>
+    <!--<PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_SAGEPAY" hasTable="Y" description="Payment Gateway SagePay"/>-->
+    <!--<PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_AUTH_NET" hasTable="Y" description="Payment Gateway Authorize Dot Net"/>-->
+    <!--<PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_CYBERSRC" hasTable="Y" description="Payment Gateway CyberSource"/>-->
+    <!--<PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_EWAY" hasTable="Y" description="Payment Gateway eWay"/>-->
+    <!--<PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_PAYFLOWPRO" hasTable="Y" description="Payment Gateway Payflow Pro"/>-->
+    <!--<PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_PAYPAL" hasTable="Y" description="Payment Gateway PayPal"/>-->
+    <!--<PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_CLRCOMRC" hasTable="Y" description="Payment Gateway Clear Commerce"/>-->
+    <!--<PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_WORLDPAY" hasTable="Y" description="Payment Gateway RBS WorldPay"/>-->
+    <!--<PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_ORBITAL" hasTable="Y" description="Payment Gateway Orbital"/>-->
+    <!--<PaymentGatewayConfigType paymentGatewayConfigTypeId="PAY_GATWY_SECUREPAY" hasTable="Y" description="Payment Gateway SecurePay"/>-->
     
     <!-- US Tax Account Groups -->
     <GlAccountGroupType glAccountGroupTypeId="TAX_FIELD_US" description="Tax Form Field: USA"/>
