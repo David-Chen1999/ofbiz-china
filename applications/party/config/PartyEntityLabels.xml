@@ -1384,7 +1384,7 @@
         <value xml:lang="ru">Организация</value>
         <value xml:lang="th">องค์กร</value>
         <value xml:lang="vi">Tổ chức</value>
-        <value xml:lang="zh">团体</value>
+        <value xml:lang="zh">组织</value>
         <value xml:lang="zh-TW">團體</value>
     </property>
     <property key="PartyClassificationType.description.OWNERSHIP">
@@ -3176,7 +3176,7 @@
         <value xml:lang="ru">Организация</value>
         <value xml:lang="th">องค์กร</value>
         <value xml:lang="vi">Tổ chức</value>
-        <value xml:lang="zh">团体</value>
+        <value xml:lang="zh">组织</value>
         <value xml:lang="zh-TW">團體</value>
     </property>
     <property key="RoleType.description.ORGANIZATION_UNIT">

@@ -17852,7 +17852,7 @@
         <value xml:lang="ru">Группа объектов</value>
         <value xml:lang="th">กลุ่มคลังสินค้า</value>
         <value xml:lang="vi">Nhóm Chi nhánh / Cơ sở</value>
-        <value xml:lang="zh">场所组</value>
+        <value xml:lang="zh">设施组别</value>
         <value xml:lang="zh-TW">場所群組</value>
     </property>
     <property key="ProductFacilityGroupId">
@@ -23501,6 +23501,7 @@
         <value xml:lang="zh-TW">必須在範圍內</value>
     </property>
     <property key="ProductOnlyOneFacility">
+        <value xml:lang="zh">如果只有一个场所，新选择并继续</value>
         <value xml:lang="en">If there is only one facility, you need to select it to continue, no search available</value>
         <value xml:lang="fr">S'il n'y a qu'un seul lieu de stockage, vous devez le sélectionner pour continuer, aucune recherche n'est disponible.</value>
     </property>

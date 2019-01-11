@@ -13508,7 +13508,7 @@
         <value xml:lang="th">คลังสินค้า</value>
         <value xml:lang="vi">Chi nhánh / Cơ sở</value>
         <value xml:lang="zh">场所</value>
-        <value xml:lang="zh-CN">设备</value>
+        <value xml:lang="zh-CN">设施和仓储</value>
         <value xml:lang="zh-TW">場所管理</value>
     </property>
     <property key="FacilityComponentDescription">
@@ -15088,8 +15088,8 @@
         <value xml:lang="ru">Участник</value>
         <value xml:lang="th">กลุ่มผู้ใช้</value>
         <value xml:lang="vi">Cá nhân - Tổ chức</value>
-        <value xml:lang="zh">会员</value>
-        <value xml:lang="zh-CN">团体</value>
+        <value xml:lang="zh">用户</value>
+        <value xml:lang="zh-CN">用户</value>
         <value xml:lang="zh-TW">團體</value>
     </property>
     <property key="PartyComponentDescription">

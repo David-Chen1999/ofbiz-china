@@ -58,7 +58,8 @@ under the License.
                                                     </condition>
                                                     <widgets>
                                                         <label style="h1">${uiLabelMap.ProductEditFacility} ${facility.facilityName} [${facilityId}]</label>
-                                                        <platform-specific><html><html-template location="component://product/template/facility/EditFacility.ftl"/></html></platform-specific>
+                                                        <platform-specific><html><html-template
+                                                                location="component://product/template/facility/EditFacility.ftl"/></html></platform-specific>
                                                     </widgets>
                                                     <fail-widgets>
                                                         <label style="h1">${uiLabelMap.ProductNewFacility}"</label>
